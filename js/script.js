@@ -16,6 +16,14 @@
 
 	}
 
+	$(window).on('load', function() {
+
+		// preloader
+		if($('.preloader').length){
+			$('.preloader').delay(1600).fadeOut(100);
+		}	
+	});
+
 	$(window).on("mousemove", function (event) {
 		showCoords(event);
 	});
