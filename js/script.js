@@ -20,7 +20,7 @@
 
 		// preloader
 		if($('.preloader').length){
-			$('.preloader').delay(1600).fadeOut(100);
+			$('.preloader').delay(500).fadeOut(50);
 		}	
 	});
 
