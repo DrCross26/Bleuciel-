@@ -67,15 +67,16 @@
 							<a class="nav-link active" href="about.html">About</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link" href="/services.html" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <i class="fas fa-sort-down"></i></a>
-							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-								<a class="dropdown-item" href="Digital Marketing.html">Digital Marketing</a>
-								<a class="dropdown-item" href="IT Solutions.html">IT Solutions</a>
-								<a class="dropdown-item" href="Web Development.html">Web Development</a>
-								<a class="dropdown-item" href="Businesss Consulting.html">Businesss Consulting</a>
-								<a class="dropdown-item" href="Brand Mangement.html">Brand Mangement</a>
-								
-							</div>
+							<a class="nav-link" href="services.html" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <i class="fas fa-sort-down"></i></a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+							<a class="dropdown-item" href="digital_marketing.html">Digital Marketing</a>
+							<a class="dropdown-item" href="it_solutions.html">IT Solutions</a>
+							<a class="dropdown-item" href="web_development.html">Web Development</a>
+							<a class="dropdown-item" href="businesss_consulting.html">Businesss Consulting</a>
+							<a class="dropdown-item" href="brand_mangement.html">Brand Mangement</a>
+							
+							
+						</div>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="pricing.html">Pricing Table</a>
@@ -149,7 +150,7 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="right-ab">
-						<img class="img-fluid rounded mb-4" src="images/our vision.jpg.crdownload" alt="" />
+						<img class="img-fluid rounded mb-4" src="images/vision.jpg" alt="" />
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -168,7 +169,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container " id="ourTeam">
 		<!-- Team Members -->
 		<div class="team-members-box">  
 			<h2>Our Team</h2>
@@ -228,10 +229,10 @@
 			<!-- /.row -->
 		</div>
 	</div>
-	
-	<div class="customers-box"> 
+
+	<!-- Our Customers -->
+	<!-- <div class="customers-box"> 
 		<div class="container">
-			<!-- Our Customers -->
 			<h2>Our Customers</h2>
 			<div class="row">
 				<div class="col-lg-12">
@@ -260,7 +261,7 @@
 			<!-- /.row -->
 		</div>
 		<!-- /.container -->
-	</div>
+	<!-- </div> --> -->
 	
 	<!-- Contact Us -->
 	<div class="touch-line">
@@ -270,7 +271,7 @@
 				   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
 				</div>
 				<div class="col-md-4">
-				   <a class="btn btn-lg btn-secondary btn-block" href="#"> Contact Us </a>
+				   <a class="btn btn-lg btn-secondary btn-block" href="contact.html"> Contact Us </a>
 				</div>
 			</div>
 		</div>
@@ -296,16 +297,31 @@
 					<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
 					<!--headin5_amrc-->
 					<ul class="footer_ul_amrc">
-						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Get In Touch</a></li>
-						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>About Us</a></li>
-						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Our Team </a></li>
-						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Our Services</a></li>
-						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Pricing</a></li>
-						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>FAQs</a></li>
+						<ul class="footer_ul_amrc">
+							<li><a href="contact.html"><i class="fas fa-long-arrow-alt-right"></i>Get In Touch</a></li>
+							<li><a href="about.html"><i class="fas fa-long-arrow-alt-right"></i>About Us</a></li>
+							<li><a href="about.html#ourTeam"><i class="fas fa-long-arrow-alt-right"></i>Our Team </a></li>
+							<li><a href="pricing.html"><i class="fas fa-long-arrow-alt-right"></i>Pricing</a></li>
+							<li><a href="faq.html"><i class="fas fa-long-arrow-alt-right"></i>FAQs</a></li>
+						</ul>
 					</ul>
 					<!--footer_ul_amrc ends here-->
 				</div>
-				<div class="col-md-4 col-sm-6 ">
+
+				<div class=" col-md-4 col-sm-6">
+					<h5 class="headin5_amrc col_white_amrc pt2">Quick Links</h5>
+					<!--headin5_amrc-->
+					<ul class="footer_ul_amrc">
+						<li><a href="digital_marketing.html"><i class=""></i>Digital Marketing</a></li>
+						<li><a href="it_solutions.html"><i class=""></i>IT Solutions</a></li>
+						<li><a href="web_development.html"><i class=""></i>Web Development </a></li>
+						<li><a href="businesss_consulting.html"><i class=""></i>Business Consulting</a></li>
+						<li><a href="brand_mangement.html"><i class=""></i>Brand Management</a></li>
+					</ul>
+
+					<!--footer_ul_amrc ends here-->
+				</div>
+				<!-- <div class="col-md-4 col-sm-6 ">
 					<div class="news-box">
 						<h5 class="headin5_amrc col_white_amrc pt2">Newsletter</h5>
 						<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
@@ -318,7 +334,7 @@
 							</div>
 						</form>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
         <div class="container">

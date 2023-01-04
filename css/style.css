@@ -1095,6 +1095,28 @@ footer p {
 #pricing{
 	background: url(../images/pricing\ BG.png)no-repeat center;
 }
+
+/* our services background styling */
+
+#digital_marketing{
+	background: url(../images/d\ merketing.png)no-repeat center;
+}
+
+#it_solutions{
+	background: url(../images/it\ sol\ 3.jpg)no-repeat center;
+}
+
+#web_development{
+	background: url(../images/Web\ D.png)no-repeat center;
+}
+
+#business_consulting{
+	background: url(../images/consulting.png)no-repeat center;
+}
+
+#brand_management{
+	background: url(../images/brand\ magt.png)no-repeat center;
+}
 .breadcrumb-main{
 	position: relative;
 	max-width: 400px;
@@ -1562,15 +1584,15 @@ footer p {
 	padding: 30px 0px;
 }
 .bg-01{
-	background: url(../images/pricing-bg-01.jpg) no-repeat center;
+	background:  no-repeat center;
 	background-size: cover;
 }
 .bg-02{
-	background: url(../images/pricing-bg-02.jpg) no-repeat center;
+	background: no-repeat center;
 	background-size: cover;
 }
 .bg-03{
-	background: url(../images/pricing-bg-03.jpg) no-repeat center;
+	background: no-repeat center;
 	background-size: cover;
 }
 .pricing-box .card:hover .card-header{
