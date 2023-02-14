@@ -1104,7 +1104,7 @@ footer p {
 #faq{
 	background: url(../images/FAQ\ BG.jpg)no-repeat center;
 }
-#pricing{
+#blog{
 	background: url(../images/pricing\ BG.png)no-repeat center;
 }
 
@@ -1717,7 +1717,15 @@ footer p {
 	
 }
 
+#customers{
 
+ 
+}
+.img-fluid{
+	width: 80%;
+  	border-radius: 10%;
+  	margin: 20px;
+}
 @media (min-width:768px) and (max-width:991px){
 	.navbar-expand-lg.top-nav .navbar-nav .nav-link.dropdown-toggle::after{
 		position: absolute;
