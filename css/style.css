@@ -380,7 +380,8 @@ button.btn-secondary:hover{
 }
 .about-main p{
 	font-size: 15px;
-	text-transform: capitalize;
+	text-transform:none;
+	text-align: justify;
 }
 .about-main ul{
 	padding-left: 20px;
@@ -425,7 +426,7 @@ button.btn-secondary:hover{
 	margin-bottom: 0px;
 }
 .portfolio-main .card .card-body .card-title a{
-	font-size: 20px;
+	font-size: 40px;
 	font-weight: 400;
 	text-transform: capitalize;
 	color: #ffffff;
@@ -659,6 +660,7 @@ footer p {
 	color:#CCC; 
 	padding-bottom:0px; 
 	margin-bottom:8px;
+	text-align: justify;
 	}
 .mb10 { 
 	padding-bottom:0px ;
@@ -1207,6 +1209,7 @@ footer p {
 }
 .left-ab p{
 	font-size: 15px;
+	text-align: center;
 }
 .left-ab ul{
 	padding-left: 20px;
@@ -1366,6 +1369,7 @@ footer p {
 }
 .portfolio-item .card .card-body p{
 	margin-bottom: 0px;
+	text-align: justify;
 }
 .hover-box{
 	position: relative;
@@ -1572,7 +1576,7 @@ footer p {
 }
 #accordionExample  .accordion-single h5 button[aria-expanded="false"]::before {
     content: "\f105";
-	font-family: "Font Awesome 5 Free";
+	font-family:'Courier New', Courier, monospace;
 	font-weight: 900;
 	width: 40px;
 	height: 47px;
@@ -1590,7 +1594,7 @@ footer p {
 }
 #accordionExample  .accordion-single h5 button[aria-expanded="true"]::before{
     content: "\f107";
-	font-family: "Font Awesome 5 Free";
+	font-family:'Courier New', Courier, monospace;
 	font-weight: 900;
 	width: 40px;
 	height: 47px;
