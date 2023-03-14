@@ -1230,6 +1230,9 @@ footer p {
     top: 0px;
     color: #1273eb;
 }
+.card-text{
+	text-align: justify;
+}
 
 .team-members-box{
 	padding: 30px 0px;
@@ -1479,6 +1482,7 @@ footer p {
 }
 .by-post{
 	margin-bottom: 12px;
+	
 }
 .blog-entries .card{
 	box-shadow: 3px 5px 15px rgba(0,0,0, .15);
@@ -1707,7 +1711,6 @@ footer p {
 	font-weight: bold;
 	font-size: 18px;
 }
-
 .help-block ul{
 	margin: 0px;
 	padding: 0px;
